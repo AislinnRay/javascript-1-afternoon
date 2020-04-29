@@ -35,7 +35,7 @@ let devMountainGoal = null
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-function greeting() {
+function greeting(name) {
   return `Hello, ${name}`
 }
 
@@ -44,7 +44,7 @@ function greeting() {
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
-var newGreeting = function () {
+var newGreeting = function (name) {
  return `Hello, ${name}`
 }
 
@@ -62,9 +62,9 @@ let groceries = ["apples", "milk", "eggs", "bread"]
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-let dog = {
-  name: "Rover",
-  color: "Black",
+var dog = {
+  name: 'Rover',
+  color: 'Black',
   age: 2,
   goodBoy: true
 }
@@ -72,7 +72,7 @@ let dog = {
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-let devMountainClassPet = `$(dog[0])`
+let devMountainClassPet = `${dog.name}`
 
 //////////////////PROBLEM 10////////////////////
 
