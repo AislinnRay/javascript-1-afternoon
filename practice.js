@@ -164,13 +164,13 @@ let pondScope = ["duck", "realDuck"];
 
 //Create a variable called age with your age assigned to you
 
-//const age = 24
+let age = 24
 
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-//const age = age + 1
+age = age + 1
 
 // Good news! We can live forever. Set your age to 999
 
-//const age = 999
+age = 999
